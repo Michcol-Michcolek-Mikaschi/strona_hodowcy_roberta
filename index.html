@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Kuziora - Elitarna Hodowla Gołębi Pocztowych | PZHGP Sekcja Łęknica, Oddział 0413 Żary | Linia Łepuch</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Elitarna hodowla gołębi pocztowych Roberta Kuziora - linia Łepuch. PZHGP Sekcja Łęknica, Oddział 0413 Żary. Rezerwacje młodych gołębi na sezon 2025, profesjonalna opieka hodowlana.">
+    <meta name="keywords" content="hodowla gołębi pocztowych, Robert Kuziora, linia Łepuch, PZHGP, Łęknica, Żary, gołębie pocztowe, sport gołębiarski, młode gołębie 2025, rezerwacje">
+    <meta name="author" content="Robert Kuziora">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="pl">
+    <meta name="geo.region" content="PL">
+    <meta name="geo.placename" content="Łęknica, Żary">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Robert Kuziora - Elitarna Hodowla Gołębi Pocztowych | Linia Łepuch">
+    <meta property="og:description" content="Profesjonalna hodowla gołębi pocztowych z linii Łepuch. PZHGP Sekcja Łęknica, Oddział 0413 Żary. Rezerwacje młodych na sezon 2025.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rkuziora.pl">
+    <meta property="og:image" content="IMG_20250513_194701.jpg">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="Robert Kuziora - Hodowla Gołębi Pocztowych">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Robert Kuziora - Elitarna Hodowla Gołębi Pocztowych | Linia Łepuch">
+    <meta name="twitter:description" content="Profesjonalna hodowla gołębi pocztowych z linii Łepuch. PZHGP Sekcja Łęknica, Oddział 0413 Żary.">
+    <meta name="twitter:image" content="IMG_20250513_194701.jpg">
+    
+    <!-- Structured Data Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Robert Kuziora - Hodowla Gołębi Pocztowych",
+        "description": "Elitarna hodowla gołębi pocztowych z linii Łepuch",
+        "url": "https://rkuziora.pl",
+        "telephone": "+48000000000",
+        "email": "kontakt@rkuziora.pl",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Łęknica",
+            "addressRegion": "Lubuskie",
+            "addressCountry": "PL"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "51.5",
+            "longitude": "14.7"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Robert Kuziora"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "PZHGP Sekcja Łęknica, Oddział 0413 Żary"
+        }
+    }
+    </script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>        /* Użycie niestandardowej czcionki */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0a0a0a;
+            color: #e5e7eb;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Responsywna czcionka */
+        html {
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            html { font-size: 14px; }
+        }
+        @media (min-width: 1200px) {
+            html { font-size: 18px; }
+        }
+
+        /* Efekt szklanego, rozmytego tła dla nawigacji */
+        .glass-nav {
+            background-color: rgba(10, 10, 10, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        /* Lepszy scroll behavior */
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .scroll-smooth {
+                scroll-behavior: auto;
+            }
+        }        /* --- Animowane tło "Aurora" z responsywnością --- */
+        .aurora-background {
+            position: relative;
+            background: #0a0a0a;
+            overflow: hidden;
+            min-height: 100vh;
+        }
+        .aurora-background::before, .aurora-background::after {
+            content: '';
+            position: absolute;
+            width: 80vw;
+            height: 80vw;
+            max-width: 1000px;
+            max-height: 1000px;
+            border-radius: 50%;
+            opacity: 0.3;
+            mix-blend-mode: screen;
+            animation: aurora-flow 25s linear infinite;
+            z-index: 0;
+            filter: blur(60px);
+        }
+        .aurora-background::before {
+            background: radial-gradient(circle, #3b82f6, transparent 60%);
+            top: -30%;
+            left: -30%;
+        }
+        .aurora-background::after {
+            background: radial-gradient(circle, #8b5cf6, transparent 60%);
+            bottom: -30%;
+            right: -30%;
+            animation-delay: -12.5s;
+        }
+        @media (max-width: 768px) {
+            .aurora-background::before, .aurora-background::after {
+                width: 120vw;
+                height: 120vw;
+                filter: blur(40px);
+                opacity: 0.2;
+            }
+        }
+        @keyframes aurora-flow {
+            0% { transform: translateX(0%) translateY(0%) rotate(0deg); }
+            50% { transform: translateX(20%) translateY(-20%) rotate(180deg); }
+            100% { transform: translateX(0%) translateY(0%) rotate(360deg); }
+        }
+
+        /* --- NOWOŚĆ: Animowane podkreślenie w nawigacji --- */
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #3b82f6;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .nav-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }        /* --- Interaktywne, podświetlane karty z responsywnością --- */
+        .glow-card-container {
+            position: relative;
+            background: #111827;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            border: 1px solid rgb(55 65 81);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .glow-card-container:hover {
+            transform: translateY(-8px);
+            border-color: #3b82f6;
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1);
+        }
+        .glow-card-container::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(59, 130, 246, 0.15), transparent 40%);
+            z-index: 0;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .glow-card-container:hover::before {
+            opacity: 1;
+        }
+        .glow-card-content {
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* Responsywność dla kart */
+        @media (max-width: 768px) {
+            .glow-card-container:hover {
+                transform: translateY(-4px);
+            }
+            .glow-card-container::before {
+                background: radial-gradient(300px circle at var(--mouse-x) var(--mouse-y), rgba(59, 130, 246, 0.1), transparent 40%);
+            }
+        }
+
+        /* --- ULEPSZENIE: Animacje pojawiania się sekcji --- */
+        .reveal-section { opacity: 0; transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .reveal-section.visible { opacity: 1; transform: none; }
+        .slide-in-up { transform: translateY(50px); }
+        .slide-in-left { transform: translateX(-50px); }
+        .slide-in-right { transform: translateX(50px); }        /* Style dla galerii z responsywnością */
+        .modal{
+            display:none;
+            position:fixed;
+            z-index:1000;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            overflow:auto;
+            background-color:rgba(0,0,0,0.95);
+            -webkit-animation-name:fadeIn;
+            animation-name:fadeIn;
+            -webkit-animation-duration:0.4s;
+            animation-duration:0.4s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        .modal-content{
+            position:relative;
+            margin:auto;
+            width:90%;
+            max-width:800px;
+            top:50%;
+            transform:translateY(-50%);
+            max-height:90vh;
+            object-fit:contain;
+        }
+        .close{
+            color:#fff;
+            position:absolute;
+            top:15px;
+            right:35px;
+            font-size:40px;
+            font-weight:bold;
+            transition:0.3s;
+            z-index:1001;
+            cursor:pointer;
+            background:none;
+            border:none;
+            padding:10px;
+        }
+        .close:hover,.close:focus{
+            color:#3b82f6;
+            text-decoration:none;
+            cursor:pointer;
+            transform:scale(1.1);
+        }
+        .prev,.next{
+            cursor:pointer;
+            position:absolute;
+            top:50%;
+            width:auto;
+            padding:16px;
+            margin-top:-50px;
+            color:white;
+            font-weight:bold;
+            font-size:30px;
+            transition:0.3s;
+            border-radius:0 3px 3px 0;
+            user-select:none;
+            -webkit-user-select:none;
+            background-color:rgba(0,0,0,0.5);
+            border:none;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .next{
+            right:0;
+            border-radius:3px 0 0 3px;
+        }
+        .prev{
+            left:0;
+            border-radius:0 3px 3px 0;
+        }
+        .prev:hover,.next:hover{
+            background-color:rgba(59, 130, 246, 0.8);
+            transform:scale(1.1);
+        }
+        .gallery-image{
+            transition:transform .3s ease-in-out,filter .3s ease-in-out,box-shadow .3s ease-in-out;
+            border-radius:8px;
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }        .gallery-image:hover{
+            transform:scale(1.05);
+            filter:brightness(1.1);
+            box-shadow:0 10px 25px rgba(59, 130, 246, 0.3);
+        }
+        
+        /* Style dla buttonów galerii */
+        .gallery-button {
+            background: none;
+            border: none;
+            padding: 0;
+            width: 100%;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            border-radius: 8px;
+        }
+        
+        .gallery-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+        }
+        
+        .gallery-button:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+        
+        .gallery-button img {
+            transition: filter 0.3s ease-in-out;
+        }
+        
+        .gallery-button:hover img {
+            filter: brightness(1.1);
+        }
+        
+        /* Responsywność galerii */
+        @media (max-width: 768px) {
+            .modal-content{
+                width:95%;
+                max-height:80vh;
+            }
+            .close{
+                top:10px;
+                right:20px;
+                font-size:30px;
+            }
+            .prev,.next{
+                padding:12px;
+                font-size:24px;
+                margin-top:-30px;            }
+            .gallery-image{
+                height:150px;
+            }
+            .gallery-button {
+                height: 150px;
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-image{
+                height:120px;
+            }
+            .gallery-button {
+                height: 120px;
+            }
+            .prev,.next{
+                padding:8px;
+                font-size:20px;
+            }
+        }
+        
+        @-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}
+        @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+    </style>
+</head>
+<body class="antialiased">    <!-- Nawigacja z lepszą responsywnością -->
+    <header id="header" class="glass-nav fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+            <a href="#" class="text-xl sm:text-2xl font-bold text-white tracking-wider">
+                <span class="text-blue-400">R</span>KUZIORA<span class="text-blue-400">.</span>
+            </a>
+            <nav class="hidden md:flex space-x-4 lg:space-x-8 items-center">
+                <a href="#o-hodowli" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">O Hodowli</a>
+                <a href="#mistrzowie" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">Mistrzowie</a>
+                <a href="#osiagniecia" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">Osiągnięcia</a>
+                <a href="#filozofia" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">Nasze Gołębie</a>
+                <a href="#galeria" class="nav-link text-gray-300 hover:text-white transition-colors duration-300 text-sm lg:text-base">Galeria</a>
+                <a href="#kontakt" class="bg-blue-600 text-white py-2 px-4 lg:px-5 rounded-md hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/50 text-sm lg:text-base">Kontakt</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-white p-2 hover:bg-gray-800/50 rounded-lg transition-colors" onclick="toggleMobileMenu()" aria-label="Menu nawigacyjne">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu z lepszą animacją -->
+        <div id="mobileMenu" class="hidden md:hidden bg-gray-900/95 backdrop-blur-md border-t border-gray-700">
+            <div class="px-4 sm:px-6 py-4 space-y-3">
+                <a href="#o-hodowli" class="block text-gray-300 hover:text-white transition-colors py-2 px-3 rounded-lg hover:bg-gray-800/50" onclick="toggleMobileMenu()">O Hodowli</a>
+                <a href="#mistrzowie" class="block text-gray-300 hover:text-white transition-colors py-2 px-3 rounded-lg hover:bg-gray-800/50" onclick="toggleMobileMenu()">Mistrzowie</a>
+                <a href="#osiagniecia" class="block text-gray-300 hover:text-white transition-colors py-2 px-3 rounded-lg hover:bg-gray-800/50" onclick="toggleMobileMenu()">Osiągnięcia</a>
+                <a href="#filozofia" class="block text-gray-300 hover:text-white transition-colors py-2 px-3 rounded-lg hover:bg-gray-800/50" onclick="toggleMobileMenu()">Nasze Gołębie</a>
+                <a href="#galeria" class="block text-gray-300 hover:text-white transition-colors py-2 px-3 rounded-lg hover:bg-gray-800/50" onclick="toggleMobileMenu()">Galeria</a>
+                <a href="#kontakt" class="block bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-all text-center font-semibold mt-4" onclick="toggleMobileMenu()">Kontakt</a>
+            </div>
+        </div>
+    </header>
+
+    <main>        <!-- Sekcja Hero z lepszą responsywnością -->
+        <section class="min-h-screen flex items-center aurora-background relative">
+            <div class="container mx-auto px-4 sm:px-6 text-center z-10 py-20 sm:py-0">                <h1 id="hero-headline" class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
+                    Pasja, Precyzja, Zwycięstwo.
+                </h1><p class="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-6 sm:mb-8 reveal-section slide-in-up leading-relaxed px-4" style="transition-delay: 1.5s;">
+                    Elitarna hodowla gołębi pocztowych oparta na legendarnych liniach Łepuch. Członek PZHGP Sekcja Łęknica, Oddział 0413 Żary.
+                </p>
+                <div class="reveal-section slide-in-up px-4" style="transition-delay: 1.8s;">
+                  <a href="#o-hodowli" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-full text-base sm:text-lg shadow-xl hover:bg-blue-700 hover:scale-105 transition-all duration-300 hover:shadow-blue-500/50">
+                      Poznaj Naszą Historię
+                  </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- O Hodowli -->
+        <section id="o-hodowli" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="reveal-section slide-in-left">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Hodowla Zrodzona z Pasji</h2>
+                        <div class="w-24 h-1 bg-blue-500 mb-6"></div>
+                        <p class="text-gray-400 mb-4">
+                            Hodowla Roberta Kuziora to przedsięwzięcie oparte na głębokiej pasji do sportu gołębiarskiego i dążeniu do doskonałości w każdym szczególe. Projekt powstał z miłości do tych niezwykłych ptaków i sportowej rywalizacji na najwyższym poziomie.
+                        </p>
+                        <p class="text-gray-400 mb-6">
+                            Największym atutem jest <span class="text-blue-400 font-semibold">nowoczesny, autorsko zaprojektowany i wybudowany gołębnik</span>, który spełnia najwyższe standardy współczesnego hodowlarstwa. Obiekt zapewnia ptakom optymalne warunki bytowe, treningowe i wypoczynkowe - fundamenty przyszłych sukcesów sportowych. To miejsce, gdzie tradycyjna wiedza hodowlana spotyka się z nowoczesnymi rozwiązaniami technicznymi.
+                        </p>
+                    </div>
+                    <div class="rounded-lg overflow-hidden shadow-2xl reveal-section slide-in-right">
+                        <img src="IMG_20250513_194701.jpg" alt="Nowoczesny gołębnik Roberta Kuziora" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mistrzowie - Bracia Łepuch -->
+        <section id="mistrzowie" class="py-20 md:py-32 bg-gray-900/50">
+            <div class="container mx-auto px-6 reveal-section slide-in-up">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Fundament Sukcesu: Bracia Łepuch</h2>
+                    <div class="w-24 h-1 bg-blue-500 mb-6 mx-auto"></div>                    <p class="text-gray-400 mb-6">
+                        Fundamentem każdej wybitnej hodowli jest wysokiej jakości materiał rozpłodowy. W naszej hodowli tym fundamentem są gołębie pochodzące od <span class="text-white font-semibold">Krzysztofa, Ireneusza i Doroty Łepuch</span> – prawdziwych ikon polskiego sportu gołębiarskiego. Ich dorobek sportowy, liczne tytuły mistrzowskie oraz gołębie olimpijskie od dziesięcioleci wyznaczają standardy w europejskim gołębiarstwie.
+                    </p>
+                    <p class="text-gray-400">
+                        Cały nasz stan hodowlany w 100% opiera się na tej wybitnej linii krwi. Co więcej, hodowla prowadzona jest pod merytorycznym nadzorem i przy nieocenialnym wsparciu doświadczeniowym mistrzów, którzy służą radą i dzielą się swoją wieloletnią wiedzą praktyczną. To gwarancja najwyższej jakości genetycznej i metodycznej.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOWA SEKCJA: Osiągnięcia -->
+        <section id="osiagniecia" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16 reveal-section slide-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Nasze Osiągnięcia</h2>
+                    <div class="w-24 h-1 bg-blue-500 mb-6 mx-auto"></div>
+                    <p class="text-gray-400">Krok po kroku, lot po locie, budujemy swoją pozycję, czerpiąc z najlepszych wzorców. Oto wybrane wyniki:</p>
+                </div>                <!-- Oś czasu -->
+                <div class="relative max-w-2xl mx-auto">
+                    <div class="absolute left-1/2 w-0.5 h-full bg-gray-700 -translate-x-1/2"></div>
+                    
+                    <!-- Rok 2020 - Początek -->
+                    <div class="relative mb-8 reveal-section slide-in-left">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] ml-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2020 - Początek Marzeń</h3>
+                            <p class="text-sm text-blue-400 mb-2">Zakładanie Hodowli</p>
+                            <p class="text-gray-400 text-sm">Rozpoczęcie budowy nowoczesnego gołębnika według autorskiego projektu. Pierwsze kontakty z rodziną Łepuch i nabycie podstawowego materiału hodowlanego najwyższej jakości.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rok 2021 - Budowa -->
+                    <div class="relative mb-8 reveal-section slide-in-right">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] mr-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2021 - Realizacja Planów</h3>
+                            <p class="text-sm text-blue-400 mb-2">Ukończenie Gołębnika</p>
+                            <p class="text-gray-400 text-sm">Finalizacja budowy gołębnika z nowoczesnym systemem wentylacji, gniazdowania i automatycznego pojenia. Pierwsze młode z elitarnych par linii Łepuch.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rok 2022 - Pierwsze loty -->
+                    <div class="relative mb-8 reveal-section slide-in-left">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] ml-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2022 - Pierwsze Loty</h3>
+                            <p class="text-sm text-blue-400 mb-2">Debiut w Konkursach</p>
+                            <p class="text-gray-400 text-sm">Pierwsza partycypacja w konkursach PZHGP Sekcja Łęknica. Obiecujące wyniki młodych gołębi potwierdzające potencjał genetyczny linii Łepuch.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rok 2023 - Przełom -->
+                    <div class="relative mb-8 reveal-section slide-in-right">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] mr-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2023 - Przełomowy Sukces</h3>
+                            <p class="text-sm text-blue-400 mb-2">Zwycięstwo w Oddziale</p>
+                            <p class="text-gray-400 text-sm"><strong>HISTORYCZNY MOMENT!</strong> Zwycięstwo w konkursach młodych na poziomie oddziału, wyprzedzając samą rodzinę Łepuch! Potwierdzenie doskonałości metodyki hodowlanej i jakości ptaków.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rok 2024 - Kontynuacja sukcesów -->
+                    <div class="relative mb-8 reveal-section slide-in-left">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] ml-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2024 - Zdobycie Lotnika</h3>
+                            <p class="text-sm text-blue-400 mb-2">Tytuł Lotnika PZHGP</p>
+                            <p class="text-gray-400 text-sm">Zdobycie prestiżowego tytułu <strong>"Lotnik PZHGP"</strong> za wybitne osiągnięcia w konkursach długodystansowych. Czołowe miejsca w klasyfikacji generalnej sekcji i oddziału.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rok 2025 - Nowe wyzwania -->
+                    <div class="relative mb-8 reveal-section slide-in-right">
+                        <div class="absolute left-1/2 w-4 h-4 bg-blue-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900"></div>
+                        <div class="bg-gray-900 rounded-lg p-6 w-[calc(50%-2rem)] mr-auto shadow-lg">
+                            <h3 class="font-bold text-white text-lg">Rok 2025 - Nowe Wyzwania</h3>
+                            <p class="text-sm text-blue-400 mb-2">Rozszerzenie Działalności</p>
+                            <p class="text-gray-400 text-sm">Przygotowania do udziału w konkursach mistrzowskich oraz rozpoczęcie sprzedaży młodych z najlepszych par. Dążenie do tytułu Mistrza Polski oraz udziału w Olimpiadzie Gołębi.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Przyszłość -->
+                    <div class="relative mb-8 reveal-section slide-in-left">
+                        <div class="absolute left-1/2 w-4 h-4 bg-gold-500 rounded-full -translate-x-1/2 mt-1.5 ring-8 ring-gray-900" style="background: linear-gradient(45deg, #ffd700, #ffed4e);"></div>
+                        <div class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-lg p-6 w-[calc(50%-2rem)] ml-auto shadow-lg border border-yellow-500/30">
+                            <h3 class="font-bold text-white text-lg">Przyszłość - Wielkie Cele</h3>
+                            <p class="text-sm text-yellow-400 mb-2">Plany Strategiczne</p>
+                            <p class="text-gray-300 text-sm">Dążenie do tytułu <strong>Mistrza Polski</strong>, udział w Olimpiadzie Gołębi Pocztowych oraz budowa pozycji jako jedna z czołowych hodowli w kraju. Kontynuacja tradycji linii Łepuch na najwyższym poziomie.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Filozofia i Troska -->
+        <section id="filozofia" class="py-20 md:py-32 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16 reveal-section slide-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Metodyka Hodowlana i Troska o Detale</h2>
+                    <div class="w-24 h-1 bg-blue-500 mb-6 mx-auto"></div>
+                    <p class="text-gray-400">Sukces w sporcie gołębiarskim opiera się na trzech filarach: doskonałej genetyce, profesjonalnej opiece oraz systematycznym treningu. Każdy element naszej metodyki jest starannie dopracowany.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Karta 1 -->
+                    <div class="glow-card-container reveal-section slide-in-up" style="transition-delay: 0.1s;">
+                        <div class="glow-card-content p-8 text-center">
+                             <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.753l5.47-5.47a4.95 4.95 0 00-7.001-7.001L5.25 11.53"></path></svg>                            <h3 class="text-xl font-bold text-white mb-3">Program Żywieniowy</h3>
+                            <p class="text-gray-400">Stosujemy wysokojakościowe mieszanki zbożowe dostosowane do cyklu rocznego. Specjalistyczne karmy treningowe, odżywki wzmacniające oraz suplementy mineralno-witaminowe.</p>
+                        </div>
+                    </div>
+                    <!-- Karta 2 -->
+                    <div class="glow-card-container reveal-section slide-in-up" style="transition-delay: 0.2s;">
+                       <div class="glow-card-content p-8 text-center">
+                            <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>                            <h3 class="text-xl font-bold text-white mb-3">Profilaktyka Zdrowotna</h3>
+                            <p class="text-gray-400">Kompleksowy program profilaktyczny obejmujący regularne szczepienia, badania parazytologiczne, suplementację oraz współpracę z weterynarzem specjalistą.</p>
+                        </div>
+                    </div>
+                    <!-- Karta 3 -->
+                    <div class="glow-card-container reveal-section slide-in-up" style="transition-delay: 0.3s;">
+                        <div class="glow-card-content p-8 text-center">
+                            <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 01-2-2V9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9z"></path><path d="M9 17a2 2 0 01-2-2V9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9z"></path><path d="M18 12.5V15a2 2 0 01-2 2h-2.5"></path><path d="M6 12.5V10a2 2 0 012-2h2.5"></path><path d="M12.5 6H10a2 2 0 00-2 2v2.5"></path><path d="M12.5 18H15a2 2 0 002-2v-2.5"></path></svg>                            <h3 class="text-xl font-bold text-white mb-3">System Treningowy</h3>
+                            <p class="text-gray-400">Przemyślany program przygotowawczy obejmujący loty prywatne, stopniowanie dystansów, aklimatyzację oraz budowanie formy fizycznej i orientacji przestrzennej.</p>
+                        </div>
+                    </div>
+                    <!-- Karta 4 -->
+                    <div class="glow-card-container reveal-section slide-in-up" style="transition-delay: 0.4s;">
+                        <div class="glow-card-content p-8 text-center">
+                             <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>                            <h3 class="text-xl font-bold text-white mb-3">Rozwój i Doskonalenie</h3>
+                            <p class="text-gray-400">Ciągłe poszukiwanie nowych rozwiązań hodowlanych, konsultacje z mistrzami, udział w szkoleniach PZHGP oraz wymiana doświadczeń z najlepszymi hodowcami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section id="galeria" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16 reveal-section slide-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Galeria - Gołębnik, Ptaki i Osiągnięcia</h2>
+                    <div class="w-24 h-1 bg-blue-500 mb-6 mx-auto"></div>
+                    <p class="text-gray-400">Prezentujemy Państwu naszą hodowlę: nowoczesny gołębnik, elitarne ptaki z linii Łepuch oraz zdobyte trofea sportowe.</p>
+                </div>                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 reveal-section slide-in-up">
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194701.jpg', 'Gołębnik Roberta Kuziora - zewnętrzna elewacja')" aria-label="Powiększ zdjęcie: Gołębnik Roberta Kuziora - zewnętrzna elewacja">
+                        <img src="IMG_20250513_194701.jpg" alt="Gołębnik Roberta Kuziora - zewnętrzna elewacja" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194720.jpg', 'Wejście do gołębnika - główne drzwi')" aria-label="Powiększ zdjęcie: Wejście do gołębnika - główne drzwi">
+                        <img src="IMG_20250513_194720.jpg" alt="Wejście do gołębnika - główne drzwi" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194739.jpg', 'Wnętrze gołębnika - system gniazdowania')" aria-label="Powiększ zdjęcie: Wnętrze gołębnika - system gniazdowania">
+                        <img src="IMG_20250513_194739.jpg" alt="Wnętrze gołębnika - system gniazdowania" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194813.jpg', 'Puchar za osiągnięcia w konkursach')" aria-label="Powiększ zdjęcie: Puchar za osiągnięcia w konkursach">
+                        <img src="IMG_20250513_194813.jpg" alt="Puchar za osiągnięcia w konkursach" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194845.jpg', 'Gołąb pocztowy linii Łepuch')" aria-label="Powiększ zdjęcie: Gołąb pocztowy linii Łepuch">
+                        <img src="IMG_20250513_194845.jpg" alt="Gołąb pocztowy linii Łepuch" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194854.jpg', 'System karmienia i pojenia')" aria-label="Powiększ zdjęcie: System karmienia i pojenia">
+                        <img src="IMG_20250513_194854.jpg" alt="System karmienia i pojenia" class="w-full h-full object-cover rounded-lg">
+                    </button>                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194939.jpg', 'Kompleks gniazd dla rozpłodników')" aria-label="Powiększ zdjęcie: Kompleks gniazd dla rozpłodników">
+                        <img src="IMG_20250513_194939.jpg" alt="Kompleks gniazd dla rozpłodników" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_194958.jpg', 'Trofea i dyplomy z konkursów')" aria-label="Powiększ zdjęcie: Trofea i dyplomy z konkursów">
+                        <img src="IMG_20250513_194958.jpg" alt="Trofea i dyplomy z konkursów" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195026.jpg', 'Profesjonalny samiec hodowlany')" aria-label="Powiększ zdjęcie: Profesjonalny samiec hodowlany">
+                        <img src="IMG_20250513_195026.jpg" alt="Profesjonalny samiec hodowlany" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195034.jpg', 'Samica z czołówki konkursu')" aria-label="Powiększ zdjęcie: Samica z czołówki konkursu">
+                        <img src="IMG_20250513_195034.jpg" alt="Samica z czołówki konkursu" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195045.jpg', 'Widok z góry na gołębnik')" aria-label="Powiększ zdjęcie: Widok z góry na gołębnik">
+                        <img src="IMG_20250513_195045.jpg" alt="Widok z góry na gołębnik" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195046.jpg', 'Młode gołębie gotowe do rezerwacji')" aria-label="Powiększ zdjęcie: Młode gołębie gotowe do rezerwacji">
+                        <img src="IMG_20250513_195046.jpg" alt="Młode gołębie gotowe do rezerwacji" class="w-full h-full object-cover rounded-lg">
+                    </button>                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195056.jpg', 'System wentylacji gołębnika')" aria-label="Powiększ zdjęcie: System wentylacji gołębnika">
+                        <img src="IMG_20250513_195056.jpg" alt="System wentylacji gołębnika" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195106.jpg', 'Nowoczesne wyposażenie hodowli')" aria-label="Powiększ zdjęcie: Nowoczesne wyposażenie hodowli">
+                        <img src="IMG_20250513_195106.jpg" alt="Nowoczesne wyposażenie hodowli" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195230.jpg', 'Gołębie na wylocie treningowym')" aria-label="Powiększ zdjęcie: Gołębie na wylocie treningowym">
+                        <img src="IMG_20250513_195230.jpg" alt="Gołębie na wylocie treningowym" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195244.jpg', 'Kolekcja pucharów za lotniczki')" aria-label="Powiększ zdjęcie: Kolekcja pucharów za lotniczki">
+                        <img src="IMG_20250513_195244.jpg" alt="Kolekcja pucharów za lotniczki" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195335.jpg', 'Hodowla młodych - sezon 2024')" aria-label="Powiększ zdjęcie: Hodowla młodych - sezon 2024">
+                        <img src="IMG_20250513_195335.jpg" alt="Hodowla młodych - sezon 2024" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195338.jpg', 'Elitarny rozpłodnik linii Łepuch')" aria-label="Powiększ zdjęcie: Elitarny rozpłodnik linii Łepuch">
+                        <img src="IMG_20250513_195338.jpg" alt="Elitarny rozpłodnik linii Łepuch" class="w-full h-full object-cover rounded-lg">
+                    </button>                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195345.jpg', 'Samica o udowodnionej wartości hodowlanej')" aria-label="Powiększ zdjęcie: Samica o udowodnionej wartości hodowlanej">
+                        <img src="IMG_20250513_195345.jpg" alt="Samica o udowodnionej wartości hodowlanej" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195455.jpg', 'Dyplomy uznania PZHGP')" aria-label="Powiększ zdjęcie: Dyplomy uznania PZHGP">
+                        <img src="IMG_20250513_195455.jpg" alt="Dyplomy uznania PZHGP" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195532.jpg', 'Profesjonalne obrączki konkursowe')" aria-label="Powiększ zdjęcie: Profesjonalne obrączki konkursowe">
+                        <img src="IMG_20250513_195532.jpg" alt="Profesjonalne obrączki konkursowe" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195824.jpg', 'Gołębnik nocą - oświetlenie LED')" aria-label="Powiększ zdjęcie: Gołębnik nocą - oświetlenie LED">
+                        <img src="IMG_20250513_195824.jpg" alt="Gołębnik nocą - oświetlenie LED" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                    <button class="cursor-pointer rounded-lg shadow-lg gallery-button" onclick="openModal('IMG_20250513_195851.jpg', 'Szczegół systemu gniazdowania')" aria-label="Powiększ zdjęcie: Szczegół systemu gniazdowania">
+                        <img src="IMG_20250513_195851.jpg" alt="Szczegół systemu gniazdowania" class="w-full h-full object-cover rounded-lg">
+                    </button>
+                </div>
+            </div>
+        </section>        <!-- Modal Galerii -->
+        <div id="myModal" class="modal">
+            <button class="close" onclick="closeModal()" aria-label="Zamknij galerię">&times;</button>
+            <img class="modal-content" id="modalImage" alt="Powiększone zdjęcie z galerii">
+            <button class="prev" onclick="changeSlide(-1)" aria-label="Poprzednie zdjęcie">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)" aria-label="Następne zdjęcie">&#10095;</button>
+        </div><!-- Kontakt i Rezerwacje -->
+        <section id="kontakt" class="py-20 md:py-32 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16 reveal-section slide-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Kontakt i Rezerwacje</h2>
+                    <div class="w-24 h-1 bg-blue-500 mb-6 mx-auto"></div>
+                    <p class="text-gray-400">Zapraszamy do kontaktu w sprawach hodowlanych, rezerwacji młodych oraz wymiany doświadczeń gołębiarskich.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                    <!-- Kontakt Główny -->
+                    <div class="glow-card-container reveal-section slide-in-left">
+                        <div class="glow-card-content p-8">
+                            <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+                                <svg class="w-8 h-8 mr-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                                Dane Kontaktowe
+                            </h3>
+                            <div class="space-y-4 text-gray-300">
+                                <div class="flex items-center">
+                                    <span class="font-semibold text-blue-400 w-24">Hodowca:</span>
+                                    <span>Robert Kuziora</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="font-semibold text-blue-400 w-24">Telefon:</span>
+                                    <a href="tel:+48000000000" class="text-blue-300 hover:text-blue-200 transition-colors font-medium">+48 000 000 000</a>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="font-semibold text-blue-400 w-24">Email:</span>
+                                    <a href="mailto:kontakt@rkuziora.pl" class="text-blue-300 hover:text-blue-200 transition-colors">kontakt@rkuziora.pl</a>
+                                </div>
+                                <div class="flex items-start">
+                                    <span class="font-semibold text-blue-400 w-24">Sekcja:</span>
+                                    <span>PZHGP Łęknica<br>Oddział 0413 Żary</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rezerwacje Młodych -->
+                    <div class="glow-card-container reveal-section slide-in-right">
+                        <div class="glow-card-content p-8">
+                            <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+                                <svg class="w-8 h-8 mr-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10m-10 0a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 8h6m-6 4h6m-6 4h3"></path>
+                                </svg>
+                                Rezerwacje Młodych 2025
+                            </h3>
+                            <div class="text-gray-300 space-y-4">
+                                <p class="text-sm leading-relaxed">
+                                    <span class="text-blue-400 font-semibold">📞 Zadzwoń już dziś!</span><br>
+                                    Zarezerwuj młode gołębie z elitarnych kojarzeń linii Łepuch na sezon 2025. 
+                                    Ograniczona liczba dostępnych ptaków z najlepszych par hodowlanych.
+                                </p>
+                                
+                                <div class="bg-gray-800 rounded-lg p-4 border-l-4 border-blue-500">
+                                    <p class="text-sm">
+                                        <span class="font-semibold text-white">Dostępne:</span><br>
+                                        • Młode z par czołówki<br>
+                                        • Potomstwo mistrzów lotowych<br>
+                                        • Gołębie z rodowodami PZHGP<br>
+                                        • Materiał na sezon 2025
+                                    </p>
+                                </div>
+
+                                <div class="pt-4">
+                                    <a href="tel:+48000000000" 
+                                       class="inline-flex items-center bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/50 transform hover:scale-105">
+                                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                        </svg>
+                                        Zadzwoń i Zarezerwuj
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe Informacje -->
+                <div class="mt-16 text-center reveal-section slide-in-up">
+                    <div class="bg-gray-800/50 rounded-lg p-8 max-w-4xl mx-auto border border-gray-700">
+                        <h4 class="text-xl font-bold text-white mb-4">Dlaczego Warto Wybrać Nasze Gołębie?</h4>
+                        <div class="grid md:grid-cols-3 gap-6 text-sm text-gray-300">
+                            <div>
+                                <div class="text-blue-400 font-semibold mb-2">🏆 Udowodniona Genetyka</div>
+                                <p>100% materiał z linii Łepuch - legendarnych mistrzów polskiego sportu gołębiarskiego</p>
+                            </div>
+                            <div>
+                                <div class="text-blue-400 font-semibold mb-2">🔬 Nowoczesna Hodowla</div>
+                                <p>Profesjonalny gołębnik, optymalne warunki, specjalistyczna opieka weterynaryjna</p>
+                            </div>
+                            <div>
+                                <div class="text-blue-400 font-semibold mb-2">📋 Pełna Dokumentacja</div>
+                                <p>Rodowody PZHGP, szczepienia, profesjonalne doradztwo hodowlane</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto px-6 text-center text-gray-500">            <p>&copy; 2025 Robert Kuziora - Hodowla Gołębi Pocztowych. Wszelkie prawa zastrzeżone.</p>
+            <p class="text-sm mt-2">PZHGP Sekcja Łęknica, Oddział 0413 Żary | Linia Łepuch</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // --- Skrypt do animacji pojawiania się sekcji ---
+            const revealElements = document.querySelectorAll('.reveal-section');
+            const revealOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const revealObserver = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        // Opcjonalnie: przestań obserwować po jednorazowym pojawieniu się
+                        // observer.unobserve(entry.target);
+                    }
+                });
+            }, revealOptions);
+
+            revealElements.forEach(el => {
+                // Dodanie odpowiedniej klasy kierunku animacji
+                if (![...el.classList].some(c => c.startsWith('slide-in-'))) {
+                    el.classList.add('slide-in-up');
+                }
+                revealObserver.observe(el);
+            });
+              // --- Skrypt do podświetlanych kart ---
+            const cards = document.querySelectorAll('.glow-card-container');
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    card.style.setProperty('--mouse-x', `${x}px`);
+                    card.style.setProperty('--mouse-y', `${y}px`);
+                });
+            });        });
+
+        // --- Funkcja Mobile Menu ---
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }        // --- Skrypt do obsługi Galerii Modalnej ---
+        const modal = document.getElementById("myModal");
+        const modalImg = document.getElementById("modalImage");
+        const galleryButtons = document.querySelectorAll(".gallery-button");
+        let currentImageIndex = 0;
+        
+        // Tworzymy tablicę z danymi wszystkich obrazów
+        const imageData = [
+            { src: 'IMG_20250513_194701.jpg', alt: 'Gołębnik Roberta Kuziora - zewnętrzna elewacja' },
+            { src: 'IMG_20250513_194720.jpg', alt: 'Wejście do gołębnika - główne drzwi' },
+            { src: 'IMG_20250513_194739.jpg', alt: 'Wnętrze gołębnika - system gniazdowania' },
+            { src: 'IMG_20250513_194813.jpg', alt: 'Puchar za osiągnięcia w konkursach' },
+            { src: 'IMG_20250513_194845.jpg', alt: 'Gołąb pocztowy linii Łepuch' },
+            { src: 'IMG_20250513_194854.jpg', alt: 'System karmienia i pojenia' },
+            { src: 'IMG_20250513_194939.jpg', alt: 'Kompleks gniazd dla rozpłodników' },
+            { src: 'IMG_20250513_194958.jpg', alt: 'Trofea i dyplomy z konkursów' },
+            { src: 'IMG_20250513_195026.jpg', alt: 'Profesjonalny samiec hodowlany' },
+            { src: 'IMG_20250513_195034.jpg', alt: 'Samica z czołówki konkursu' },
+            { src: 'IMG_20250513_195045.jpg', alt: 'Widok z góry na gołębnik' },
+            { src: 'IMG_20250513_195046.jpg', alt: 'Młode gołębie gotowe do rezerwacji' },
+            { src: 'IMG_20250513_195056.jpg', alt: 'System wentylacji gołębnika' },
+            { src: 'IMG_20250513_195106.jpg', alt: 'Nowoczesne wyposażenie hodowli' },
+            { src: 'IMG_20250513_195230.jpg', alt: 'Gołębie na wylocie treningowym' },
+            { src: 'IMG_20250513_195244.jpg', alt: 'Kolekcja pucharów za lotniczki' },
+            { src: 'IMG_20250513_195335.jpg', alt: 'Hodowla młodych - sezon 2024' },
+            { src: 'IMG_20250513_195338.jpg', alt: 'Elitarny rozpłodnik linii Łepuch' },
+            { src: 'IMG_20250513_195345.jpg', alt: 'Samica o udowodnionej wartości hodowlanej' },
+            { src: 'IMG_20250513_195455.jpg', alt: 'Dyplomy uznania PZHGP' },
+            { src: 'IMG_20250513_195532.jpg', alt: 'Profesjonalne obrączki konkursowe' },
+            { src: 'IMG_20250513_195824.jpg', alt: 'Gołębnik nocą - oświetlenie LED' },
+            { src: 'IMG_20250513_195851.jpg', alt: 'Szczegół systemu gniazdowania' }
+        ];
+        
+        function openModal(imageSrc, imageAlt) {
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            modalImg.alt = imageAlt;
+            
+            // Znajdź indeks obecnego obrazu
+            currentImageIndex = imageData.findIndex(img => img.src === imageSrc);
+        }
+        
+        function closeModal() {
+            modal.style.display = "none";
+        }
+        
+        function changeSlide(direction) {
+            currentImageIndex += direction;
+            
+            if (currentImageIndex >= imageData.length) {
+                currentImageIndex = 0;
+            }
+            if (currentImageIndex < 0) {
+                currentImageIndex = imageData.length - 1;
+            }
+            
+            modalImg.src = imageData[currentImageIndex].src;
+            modalImg.alt = imageData[currentImageIndex].alt;
+        }
+        
+        // Obsługa klawiatury
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                closeModal();
+            }
+            if (event.key === "ArrowRight") {
+                changeSlide(1);
+            }
+            if (event.key === "ArrowLeft") {
+                changeSlide(-1);
+            }
+        });
+        
+        // Zamykanie po kliknięciu na tło
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        };
+    </script>
+
+</body>
+</html>
